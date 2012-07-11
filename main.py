@@ -17,7 +17,7 @@ from direct.gui.DirectGui import DirectFrame
 from direct.gui.OnscreenText import OnscreenText
 import sys, gc
 
-from console.panda3d_console import panda3dIOClass
+from console.visualisation.panda3d_console import panda3dIOClass
 
 render.setShaderAuto()
 #base.toggleWireframe()
@@ -42,7 +42,7 @@ class main(object):
         
     
     def doExit(self):
-        self.map_sql.destroy()
+        #self.map_sql.destroy()
         
         print "\n\n\nGARBAGE COLLECTED:\n"
         gc.collect()

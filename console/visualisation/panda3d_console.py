@@ -24,7 +24,7 @@ from direct.gui.OnscreenText import OnscreenText
 
 from clipboard import clipboard
 
-from interpreter import cliClass
+from console.interpreter.interpreter import cliClass
 
 #sys.path.append("../")
 from config import *
