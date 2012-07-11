@@ -20,3 +20,7 @@ here we could define something like
 [d] botany
 	tree
 	grass
+	
+[d] camera
+	fps
+	rts
