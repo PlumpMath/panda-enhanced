@@ -1,14 +1,23 @@
 here we could define something like
 
-wood
-concrete
-glass
-metal
+[d] materials:
+	wood
+	concrete
+	glass
+	metal
+	water
+	ice
 
-actors
-vehicles
 
-weapons
+[d] actors
+[d] vehicles
 
-ladder
-chair
+[d] weapons
+
+[d] interactiveEntities
+	ladder
+	chair
+
+[d] botany
+	tree
+	grass
